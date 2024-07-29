@@ -837,7 +837,8 @@ padding-bottom: var(--section-padding);
 .quote{
     background-image: url(../images/quote.jpg);
     background-size: cover;
-    height: 310px;
+    height: fit-content;
+    text-align: center;
     position: relative;
 }
 
@@ -852,16 +853,13 @@ padding-bottom: var(--section-padding);
 }
 
 .quote .container{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 100px auto;
-    text-align: center;
+    position: relative;    
 }
 .quote .container q{
     color: white;
     font-size: 30px;
     padding-bottom: 30px;
+    display: block;
 }
 
 .quote .container span{
